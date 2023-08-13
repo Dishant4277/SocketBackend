@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT ;
 const url = process.env.url;
 
 const io = new Server(PORT, {
